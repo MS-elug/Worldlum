@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="@string/wallpaper_preference_title">
+
+
+	<CheckBoxPreference
+            android:key="@string/wallpaper_preference_facebook_friendslist_key"
+            android:title="@string/wallpaper_preference_facebook_friendslist_title"
+            android:summary="@string/wallpaper_preference_facebook_friendslist_summary"
+            android:defaultValue="@bool/wallpaper_preference_facebook_friendslist_default" />
+    
+    
+    <CheckBoxPreference
+            android:key="@string/wallpaper_preference_show_sun_icon_key"
+            android:title="@string/wallpaper_preference_show_sun_icon_title"
+            android:summary="@string/wallpaper_preference_show_sun_icon_summary"
+            android:defaultValue="@bool/wallpaper_preference_show_sun_icon_default" />
+    
+    <CheckBoxPreference
+            android:key="@string/wallpaper_preference_map_smooth_light_key"
+            android:title="@string/wallpaper_preference_map_smooth_light_title"
+            android:summary="@string/wallpaper_preference_map_smooth_light_summary"
+            android:defaultValue="@bool/wallpaper_preference_map_smooth_light_default" />
+
+	<CheckBoxPreference android:key="@string/wallpaper_preference_map_show_time_zone_key"
+		android:title="@string/wallpaper_preference_map_show_time_zone_title"
+		android:summary="@string/wallpaper_preference_map_show_time_zone_summary"
+		android:defaultValue="@bool/wallpaper_preference_map_show_time_zone_default" />
+                   
+                   
+                    
+    <ListPreference
+            android:key="@string/wallpaper_preference_follow_key"
+            android:title="@string/wallpaper_preference_follow_title"
+            android:summary="@string/wallpaper_preference_follow_summary"
+            android:entries="@array/wallpaper_preference_follow_entries"
+            android:entryValues="@array/wallpaper_preference_follow_entryValues" 
+            android:defaultValue="@string/wallpaper_preference_follow_default" />
+
+</PreferenceScreen>

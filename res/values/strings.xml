@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">Worldlum</string>
+
+	<string name="path_sd_save_cache">data/worldlum</string>
+
+	<string name="tropic_capricorn_name">Tropic of Capricorn</string>
+	<string name="tropic_cancer_name">Tropic of Cancer</string>
+	<string name="equator_name">Equator</string>
+	<string name="loading">Loading...</string>
+	<string name="error_no_internet_connection_message">Sorry no internet connection can\'t be found</string>
+
+
+	<string name="facebook_app_id">282544418423594</string>
+	<string name="facebook_action_post_message">Hey friends I can see you on my android earth map
+		^^</string>
+	<string name="facebook_action_post_name">Worldlum</string>
+	<string name="facebook_action_post_link">www.e-lug.fr/worldlum</string>
+	<string name="facebook_action_post_description">With this Android-App you can follow the sun light
+		over the earth planet and see if your friends are sleeping or not
+	</string>
+	<string name="facebook_action_post_picture_url">http://www.e-lug.fr/worldlum/icon.png</string>
+
+	<string name="menu_settings">Settings</string>
+	<string name="menu_help">Help</string>
+	<string name="menu_about">About...</string>
+	<string name="menu_share">Share the map</string>
+	<string name="menu_feedback">Feeback</string>
+	<string name="menu_exit">Quit</string>
+
+	<string name="feeback_email_to">feedback@e-lug.fr</string>
+	<string name="feeback_email_subject"></string>
+	<string name="feeback_email_body">Write here your feedback</string>
+	
+	<string name="about_title">About...</string>
+	<string name="about_title_credit">Image credits :</string>
+	<string name="about_nasa_copyright_BlueMarble_from">NASA Earth Observatory</string>
+	<string name="about_nasa_copyright_BlueMarble_credit">Images by Reto Stöckli.</string>
+	<string name="about_nasa_copyright_BlueMarble_link">http://earthobservatory.nasa.gov/</string>
+	<string name="about_nasa_copyright_Visible_Earth_from">NASA Visible Earth</string>
+	<string name="about_nasa_copyright_Visible_Earth_credit">Images by Craig Mayhew and Robert Simmon, NASA GSFC
+	</string>
+	<string name="about_nasa_copyright_Visible_Earth_link"> http://visibleearth.nasa.gov/</string>
+
+
+	<string name="dialog_facebook_friend_title">Select your friend</string>
+	
+	
+	<string name="service_wallpaper_label">Worldlum</string>
+	<string name="service_wallpaper_preferences_label">Worldlum Preferences</string>
+	<string name="wallpaper_description">Worldlum</string>
+
+	<!-- Global PREFERENCES -->
+	<string name="preference_facebook_token_key">NT_KEY_follow</string>
+	<string name="preference_facebook_token_default"></string>
+
+
+	
+	
+	<!-- WALLPAPER PREFERENCES -->
+	<string name="wallpaper_preference_title">Wallpaper Settings</string>
+	<string name="wallpaper_preference_PreferenceCategory">Wallpaper Settings</string>
+	
+	<string name="wallpaper_preference_facebook_friendslist_title">Facebook Friends</string>
+	<string name="wallpaper_preference_facebook_friendslist_summary">Show your facebook friends on Map</string>
+	<string name="wallpaper_preference_facebook_friendslist_key">NT_KEY_wallpaper_facebook_friendslist</string>
+	<bool name="wallpaper_preference_facebook_friendslist_default">false</bool>
+
+	<string name="wallpaper_preference_show_sun_icon_title">Sun icon</string>
+	<string name="wallpaper_preference_show_sun_icon_summary">Show the sun icon on map</string>
+	<string name="wallpaper_preference_show_sun_icon_key">NT_KEY_wallpaper_show_sun_icon</string>
+	<bool name="wallpaper_preference_show_sun_icon_default">true</bool>
+	
+	<string name="wallpaper_preference_map_smooth_light_title">Smooth light shape</string>
+	<string name="wallpaper_preference_map_smooth_light_summary">Show a smooth shape</string>
+	<string name="wallpaper_preference_map_smooth_light_key">NT_KEY_wallpaper_map_smooth_light</string>
+	<bool name="wallpaper_preference_map_smooth_light_default">true</bool>
+	
+	<string name="wallpaper_preference_map_show_time_zone_title">Show time zone</string>
+	<string name="wallpaper_preference_map_show_time_zone_summary"></string>
+	<string name="wallpaper_preference_map_show_time_zone_key">NT_KEY_wallpaper_map_show_time_zone</string>
+	<bool name="wallpaper_preference_map_show_time_zone_default">false</bool>
+	
+	<string name="wallpaper_preference_follow_title">Map</string>
+	<string name="wallpaper_preference_follow_summary">Select what the map must follow</string>
+	<string name="wallpaper_preference_follow_key">NT_KEY_wallpaper_follow</string>
+	<string name="wallpaper_preference_follow_default">NT_nothing</string>
+	<string-array name="wallpaper_preference_follow_entries">
+		<item>Center on prime Meridian</item>
+		<item>Follow the Sun</item>
+		<item>Follow your position</item>
+	</string-array>
+	<string-array name="wallpaper_preference_follow_entryValues">
+		<item>NT_nothing</item>
+		<item>NT_sun</item>
+		<item>NT_user</item>
+	</string-array>
+	
+	<!-- Application PREFERENCES -->
+	<string name="application_preference_title">Application Settings</string>
+	<string name="application_preference_PreferenceCategory">Application Settings</string>
+	
+	
+	<string name="application_preference_facebook_friendslist_title">Facebook Friends</string>
+	<string name="application_preference_facebook_friendslist_summary">Show your facebook friends on Map</string>
+	<string name="application_preference_facebook_friendslist_key">NT_KEY_facebook_friendslist</string>
+	<bool name="application_preference_facebook_friendslist_default">false</bool>
+
+	<string name="application_preference_show_sun_icon_title">Sun icon</string>
+	<string name="application_preference_show_sun_icon_summary">Show the sun icon on map</string>
+	<string name="application_preference_show_sun_icon_key">NT_KEY_show_sun_icon</string>
+	<bool name="application_preference_show_sun_icon_default">true</bool>
+	
+	<string name="application_preference_map_smooth_light_title">Smooth light shape</string>
+	<string name="application_preference_map_smooth_light_summary">Show a smooth shape</string>
+	<string name="application_preference_map_smooth_light_key">NT_KEY_map_smooth_light</string>
+	<bool name="application_preference_map_smooth_light_default">true</bool>
+	
+	<string name="application_preference_map_show_time_zone_title">Show time zone</string>
+	<string name="application_preference_map_show_time_zone_summary"></string>
+	<string name="application_preference_map_show_time_zone_key">NT_KEY_map_show_time_zone</string>
+	<bool name="application_preference_map_show_time_zone_default">false</bool>
+
+	<string name="application_preference_map_show_spider_map_title">Show Friends spider map</string>
+	<string name="application_preference_map_show_spider_map_summary"></string>
+	<string name="application_preference_map_show_spider_map_key">NT_KEY_map_show_spider_map</string>
+	<bool name="application_preference_map_show_spider_map_default">false</bool>
+</resources>

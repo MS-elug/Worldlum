@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent" android:orientation="vertical">
+    <ScrollView android:layout_width="match_parent" android:id="@+id/scrollView1" android:layout_height="wrap_content">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:orientation="vertical" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:text="@string/about_title_credit" android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content"></TextView>
+            <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:text="@string/about_nasa_copyright_Visible_Earth_from" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content"></TextView>
+                <TextView android:layout_width="wrap_content" android:text="@string/about_nasa_copyright_Visible_Earth_credit" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="25dp" android:layout_height="wrap_content"></TextView>
+                <TextView android:layout_width="wrap_content" android:text="@string/about_nasa_copyright_Visible_Earth_link" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="25dp" android:autoLink="web" android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:orientation="vertical" android:layout_marginLeft="40dp" android:layout_marginTop="20dp" android:layout_height="wrap_content">
+                <TextView android:layout_width="wrap_content" android:text="@string/about_nasa_copyright_BlueMarble_from" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content"></TextView>
+                <TextView android:layout_width="wrap_content" android:text="@string/about_nasa_copyright_BlueMarble_credit" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="25dp" android:layout_height="wrap_content"></TextView>
+                <TextView android:layout_width="wrap_content" android:text="@string/about_nasa_copyright_BlueMarble_link" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_marginLeft="25dp" android:autoLink="web" android:layout_height="wrap_content"></TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    
+</LinearLayout>
